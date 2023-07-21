@@ -1,6 +1,5 @@
 public class Main {
     public static void main(String[] args) {
-        // Создаем список: 1 -> 2 -> 3 -> 4 -> 5
         ListNode head = new ListNode(1);
         ListNode node2 = new ListNode(2);
         ListNode node3 = new ListNode(3);
