@@ -7,7 +7,7 @@ public class LinkedListReverse {
             ListNode nextTemp = curr.next;
             curr.next = prev;
             prev = curr;
-            curr = nextTemp;
+            curr = nextTemp; 
         }
 
         return prev;
